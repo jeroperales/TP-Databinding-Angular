@@ -1,0 +1,25 @@
+
+
+<h1 class = "punto-1">
+    ETAPA 1
+    </h1>
+<ul> 
+    @for (p of productos; track $index) {
+    <li>ID: {{ p.id  }} NOMBRE: {{p.nombre}} PRECIO: {{p.precio}}
+        
+
+
+    </li>
+        }
+    
+
+</ul>
+
+
+<h1 class="punto-2">ETAPA 2</h1>
+<ul>
+    <li *ngFor="let p of productos"
+        [ngClass]="{'descuento': p.descuento, 'sinDescuento': !p.descuento}"> 
+        {{ p.nombre }}
+    </li>
+</ul>

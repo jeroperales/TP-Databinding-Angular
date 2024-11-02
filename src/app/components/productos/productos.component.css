@@ -1,0 +1,16 @@
+.punto-1{
+    font-family: sans-serif;
+}
+
+.descuento{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 5px;
+}
+
+.sinDescuento{
+    background-color: rgb(196, 21, 212);
+    text-align: center;
+    margin: 5px;
+}
+
