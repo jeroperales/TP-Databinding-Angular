@@ -1,0 +1,46 @@
+Trabajo Práctico: Gestión de Productos 
+ 
+Etapa 1: Mostrar productos usando Interpolación 
+ 
+1. Crear un proyecto. 
+a. Crea el componente “productos”: 
+ 
+2. Agregar el atributo productos en “productos.component.ts”: 
+    
+     productos = [ 
+       { id: 1, nombre: 'Producto A', precio: 100 }, 
+       { id: 2, nombre: 'Producto B', precio: 200 }, 
+       { id: 3, nombre: 'Producto C', precio: 300 } 
+     ]; 
+    
+3. Mostrar los productos en “productos.component.html” usando interpolación y 
+ngFor en una lista: 
+    
+ Etapa 2: Property Binding para el Descuento 
+ 
+1. Agregar la propiedad “descuento” a cada uno de los productos en el componente 
+producto. Este atributo es de tipo boolean. 
+ 
+2. Usa property binding para aplicar estilo a los productos con descuento en 
+“productos.component.html”: 
+ 
+3. Añade estilos para los productos con descuento: 
+ 
+  
+Lic. Gabriel Chaldu 
+Angular 17 
+Etapa 3: Event Binding para agregar un producto 
+1. Crear el formulario para agregar productos en “productos.component.html”. 
+Utilice las siguiente etiquetas: 
+• <h3> 
+• <input type=”text”> 
+• <input type=”number” > 
+• <button>Agregar Producto</button> 
+2. Agregar un Método para agregar un producto en “productos.component.ts”: 
+Etapa 4: Event Binding para eliminar un producto 
+1. Botón para eliminar un producto en “productos.component.html”: 
+2. Método “eliminarProducto” en “productos.component.ts”: 
+Etapa 5: Property Binding para aplicar descuento 
+1. Checkbox para cambiar el estado de descuento de los productos en 
+“productos.component.html”: 
+2. Los estilos y property binding ya están configurados para aplicar el descuento.
