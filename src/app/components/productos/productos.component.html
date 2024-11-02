@@ -23,3 +23,26 @@
         {{ p.nombre }}
     </li>
 </ul>
+
+<h1 class="punto-2">ETAPA 3</h1>
+
+<form [formGroup]="form">
+        <div>
+            <label for="nombreProducto">Nombre Producto:</label>
+             <input type=”text” id="nombreProducto" placeholder="Ingrese producto aca"
+             formControlName="nombre"> 
+            
+            
+            </div>
+        
+             <label for="precio">Precio: </label>
+             <input type=”number” id="precio" placeholder="Ingrese precio aca"
+             formControlName="precio"> 
+
+            <div></div>
+
+        <button type="button" (click)="AgregarProducto()">Agregar Producto</button> 
+
+
+
+</form>
